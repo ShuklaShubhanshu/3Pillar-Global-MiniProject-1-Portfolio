@@ -1,0 +1,213 @@
+#heading {
+  
+  font-size: 10vh;
+  padding: 40px;
+  background-color: antiquewhite;
+  text-align: center;
+  width:auto;
+}
+*{
+  
+}
+.container{
+  background: rgb(138,232,219);
+  background: linear-gradient(90deg, rgba(138,232,219,1) 0%, rgba(20,88,102,1) 100%); 
+  margin-top: 2vh;
+  margin-left: 2vw;
+  margin-right:2vw;
+  padding-left:10vw;
+  padding-right: 10vw;
+  padding-top:5vh;
+  height:90vh
+  /* border:2px solid red; */
+}
+.about{
+  margin-top:1vh;
+  margin-bottom:1vh;
+  height:10vh;
+  background-color: rgb(255, 214, 6);
+  padding-top: 1vh;
+}
+
+.info{
+  /* background-color: antiquewhite; */
+}
+/* .text{
+  width:50vw;
+  height:100%;
+  padding-top:1vh;
+  font-size: 3vh;
+  text-align: center;
+  color:black;
+  animation-name:myname;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  
+
+} */
+.header-con {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  overflow:hidden;
+}
+.header-con>div {
+  /* font-size: 25px; */
+  text-transform: uppercase;
+  color: black;
+  opacity: 0;
+  height: 0px;
+  }
+
+.header-con>div:nth-child(1){
+  animation: animation 12s infinite;
+}
+.header-con>div:nth-child(2){
+  animation: animation 12s infinite;
+  animation-delay: 3s;
+  }
+.header-con>div:nth-child(3){
+  animation: animation 12s infinite;
+  animation-delay: 6s;
+  
+}
+.header-con>div:nth-child(4){
+  animation: animation 12s infinite;
+  animation-delay: 9s;
+  
+}
+@keyframes animation {
+  0% {opacity: 0; margin-left: 10px;}
+  16% {opacity: 1; margin-left: 30px;}
+  33% {opacity: 0; height: 0px; margin-left: 50px;}
+  100% {opacity: 0; height: 0px; margin-left: 50px;}
+}
+
+/* @keyframes myname {
+  from{
+    width:50vw;
+  }
+  to{
+    width:10vw;
+  }
+  
+} */
+.box1
+{
+  margin:10px;
+  height:20vh;
+  width:20vw;
+  font-size:2.5vh;
+  background-color: rgb(29, 100, 141);
+  margin-right: 3vw;
+  text-align: center;
+  padding-top:9vh;
+  
+}
+.box1:hover{
+  background-color: antiquewhite;
+}
+.box2
+{
+  background-color: rgb(29, 100, 141);
+  margin:10px;
+  height:20vh;
+  width:20vw;
+  font-size:2.5vh;
+  margin-right: 4vw;
+  text-align: center;
+  padding-top:9vh;
+}
+.box2:hover{
+  background-color: antiquewhite;
+}
+.box3
+{
+  background-color: rgb(29, 100, 141);
+  margin:10px;
+  height:20vh;
+  width:20vw;
+  font-size:2.5vh;
+  text-align: center;
+  padding-top:9vh;
+}
+.box3:hover{
+
+  background-color: antiquewhite;
+}
+.main
+{
+  display:flex;
+background-color:bisque;
+padding-left:2.5vw;
+margin-top: 2vh;
+margin-bottom: 1vh;
+}
+/* 
+.teach{
+  margin-top:2vh;
+  display: flex;
+
+}
+.first{
+  background-color:dodgerblue;
+  padding-bottom:1vh;
+  text-align: center;
+  width:10vw;
+  height:5vh;
+  font-size:2.5vh;
+  position: relative;
+  top:3vh;
+ 
+}
+.second
+{
+  width:5vw;
+  height:10vh;
+  background-color: green;
+  color:white;
+  font-size:4vh;
+  text-align: center;
+} */
+.foot{
+  height:8vh;
+  width:25vw;
+  display:flex;
+  /* background-color: rgb(212, 212, 201); */
+  /* justify-content: center; */
+  /* padding-top:4vh; */
+
+}
+.one-div{
+  margin-top:2vh;
+}
+.container1{
+  margin-left: 1vw;
+  margin-top:1vh;
+
+}
+.container1>div {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #301b62;
+  opacity: 0;
+  height: 0px;
+  }
+.container1>div:nth-child(1){
+  animation: animation1 9s infinite;
+}
+.container1>div:nth-child(2){
+  animation: animation1 9s infinite;
+  animation-delay: 3s;
+  }
+.container1>div:nth-child(3){
+  animation: animation1 9s infinite;
+  animation-delay: 6s;
+}
+@keyframes animation1 {
+  0% {opacity: 0; height: 0px}
+  16% {opacity: 1;}
+  33% {opacity: 0; height: 0px;}
+  100% {opacity: 0; height: 0px;}
+}
