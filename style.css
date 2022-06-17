@@ -1,14 +1,12 @@
 #heading {
   
   font-size: 10vh;
-  padding: 40px;
+  padding: 5.6vh;
   background-color: antiquewhite;
   text-align: center;
   width:auto;
 }
-*{
-  
-}
+
 .container{
   background: rgb(138,232,219);
   background: linear-gradient(90deg, rgba(138,232,219,1) 0%, rgba(20,88,102,1) 100%); 
@@ -18,7 +16,7 @@
   padding-left:10vw;
   padding-right: 10vw;
   padding-top:5vh;
-  height:90vh
+  height:95vh
   /* border:2px solid red; */
 }
 .about{
@@ -29,35 +27,19 @@
   padding-top: 1vh;
 }
 
-.info{
-  /* background-color: antiquewhite; */
-}
-/* .text{
-  width:50vw;
-  height:100%;
-  padding-top:1vh;
-  font-size: 3vh;
-  text-align: center;
-  color:black;
-  animation-name:myname;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: reverse;
-  
 
-} */
 .header-con {
   width: 100%;
-  height: 220px;
+  height: 30vh;
   position: relative;
   overflow:hidden;
 }
 .header-con>div {
-  /* font-size: 25px; */
+  font-size: 3vh;
   text-transform: uppercase;
   color: black;
   opacity: 0;
-  height: 0px;
+  height: 0vh;
   }
 
 .header-con>div:nth-child(1){
@@ -79,23 +61,15 @@
 }
 @keyframes animation {
   0% {opacity: 0; margin-left: 10px;}
-  16% {opacity: 1; margin-left: 30px;}
-  33% {opacity: 0; height: 0px; margin-left: 50px;}
-  100% {opacity: 0; height: 0px; margin-left: 50px;}
+  16% {opacity: 1; margin-left: 40px;}
+  33% {opacity: 0; height: 0px; margin-left: 70px;}
+  100% {opacity: 0; height: 0px; margin-left: 100px;}
 }
 
-/* @keyframes myname {
-  from{
-    width:50vw;
-  }
-  to{
-    width:10vw;
-  }
-  
-} */
+
 .box1
 {
-  margin:10px;
+  margin:1.4vh;
   height:20vh;
   width:20vw;
   font-size:2.5vh;
@@ -111,7 +85,7 @@
 .box2
 {
   background-color: rgb(29, 100, 141);
-  margin:10px;
+  margin:1.4vh;
   height:20vh;
   width:20vw;
   font-size:2.5vh;
@@ -125,7 +99,7 @@
 .box3
 {
   background-color: rgb(29, 100, 141);
-  margin:10px;
+  margin:1.4vh;
   height:20vh;
   width:20vw;
   font-size:2.5vh;
@@ -144,39 +118,12 @@ padding-left:2.5vw;
 margin-top: 2vh;
 margin-bottom: 1vh;
 }
-/* 
-.teach{
-  margin-top:2vh;
-  display: flex;
 
-}
-.first{
-  background-color:dodgerblue;
-  padding-bottom:1vh;
-  text-align: center;
-  width:10vw;
-  height:5vh;
-  font-size:2.5vh;
-  position: relative;
-  top:3vh;
- 
-}
-.second
-{
-  width:5vw;
-  height:10vh;
-  background-color: green;
-  color:white;
-  font-size:4vh;
-  text-align: center;
-} */
 .foot{
   height:8vh;
   width:25vw;
   display:flex;
-  /* background-color: rgb(212, 212, 201); */
-  /* justify-content: center; */
-  /* padding-top:4vh; */
+  
 
 }
 .one-div{
