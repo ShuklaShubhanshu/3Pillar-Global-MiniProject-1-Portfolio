@@ -2,7 +2,7 @@
   
   font-size: 10vh;
   padding: 5.6vh;
-  background-color: antiquewhite;
+  
   text-align: center;
   width:auto;
 }
@@ -11,20 +11,21 @@
   background: rgb(138,232,219);
   background: linear-gradient(90deg, rgba(138,232,219,1) 0%, rgba(20,88,102,1) 100%); 
   margin-top: 2vh;
-  margin-left: 2vw;
-  margin-right:2vw;
+  margin-left: .5vw;
+  margin-right:.5vw;
   padding-left:10vw;
   padding-right: 10vw;
   padding-top:5vh;
   height:95vh
-  /* border:2px solid red; */
+ 
 }
 .about{
   margin-top:1vh;
   margin-bottom:1vh;
   height:10vh;
-  background-color: rgb(255, 214, 6);
+  background-color: rgb(29, 100, 141);
   padding-top: 1vh;
+  border-radius: 3vh;
 }
 
 
@@ -37,7 +38,7 @@
 .header-con>div {
   font-size: 3vh;
   text-transform: uppercase;
-  color: black;
+  color: white;
   opacity: 0;
   height: 0vh;
   }
@@ -75,10 +76,13 @@
   margin-right: 3vw;
   text-align: center;
   padding-top:9vh;
+  color: white;
+  border-radius: 5vh;
   
 }
 .box1:hover{
-  background-color: antiquewhite;
+  background-color:lightblue;
+  color:black;
 }
 .box2
 {
@@ -90,9 +94,12 @@
   margin-right: 4vw;
   text-align: center;
   padding-top:9vh;
+  color:white;
+  border-radius: 5vh;
 }
 .box2:hover{
-  background-color: antiquewhite;
+  background-color: lightblue;
+  color:black;
 }
 .box3
 {
@@ -103,15 +110,18 @@
   font-size:2.5vh;
   text-align: center;
   padding-top:9vh;
+  color:white;
+  border-radius: 5vh;
 }
 .box3:hover{
 
-  background-color: antiquewhite;
+  background-color: lightblue;
+  color: black;
 }
 .main
 {
   display:flex;
-background-color:bisque;
+/* background-color:bisque; */
 padding-left:2.5vw;
 margin-top: 2vh;
 margin-bottom: 1vh;
@@ -138,6 +148,7 @@ margin-bottom: 1vh;
   color: #301b62;
   opacity: 0;
   height: 0px;
+
   }
 .container1>div:nth-child(1){
   animation: animation1 9s infinite;
